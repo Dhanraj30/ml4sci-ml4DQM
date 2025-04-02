@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environments
+env/
+venv/
+ENV/
+ml4sci/
+
+# Dataset files (due to large size)
+*.npy
+
+# Model files
+*.h5
+*.pb
+*.ckpt*
+*.tflite
+*.lite
+model_*/
+
+# TensorBoard logs
+logs/
+tensorboard/
+
+# Other
+.DS_Store
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Local experiments
+experiments/
+
+# Figures and plots generated during analysis
+figures/
+plots/
+
+site-packages/
